@@ -5,11 +5,10 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-mongoose.Promise = require('mongoose');
-mongoose.connect('mongodb://localhost/mean-angular5', {useMongoClient: true, promiseLibrary: require 
-    ('bluebird') })
-        .then(() => console.log('connection succesful'))
-        .catch((err) => console.error(err));
+mongoose.Promise = require('bluebird');
+mongoose.connect('mongodb://localhost/mean-angular5', { useMongoClient: true, promiseLibrary: require('bluebird') })
+  .then(() =>  console.log('connection succesful'))
+  .catch((err) => console.error(err));
 
 
 var book = require('./routes/book');
