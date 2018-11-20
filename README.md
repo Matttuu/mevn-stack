@@ -25,5 +25,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ### Description
 
-This project was made by following this tutorial: https://www.djamware.com/post/5a1b779f80aca75eadc12d6e/mongo-express-vue-nodejs-mevn-stack-crud-web-application
+This project was made by following this [tutorial](https://www.djamware.com/post/5a1b779f80aca75eadc12d6e/mongo-express-vue-nodejs-mevn-stack-crud-web-application)
 Which is a MEVN-Stack CRUD application. 
